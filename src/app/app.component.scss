@@ -1,0 +1,25 @@
+header{
+    width:fit-content;
+    margin:auto;
+
+    nav{
+
+        ul{
+            list-style:none;
+            display:flex;
+            gap:20px;
+
+            li{
+
+                a{
+                    color:black;
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+}
+
+.active{
+    background-color:rgba(0, 0, 0, 0.247);
+}
